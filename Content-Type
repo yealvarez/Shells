@@ -8,6 +8,7 @@ vms/exe
 application/x-winexe
 application/msdos-windows
 application/x-msdos-program
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 
 .aac	AAC audio	audio/aac
 .abw	AbiWord document	application/x-abiword
